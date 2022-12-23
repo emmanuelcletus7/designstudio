@@ -1,0 +1,177 @@
+body {
+    font-family: Arial;
+}
+
+/* Nav Styling */
+#nav img {
+    width: 10%;
+}
+
+#img {
+    width: 30%;
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+#navtext {
+    width: 50%;
+    margin-top: 1%
+}
+
+#nav a {
+    text-decoration: none;
+    margin: 2%;
+    margin-right: 3%;
+    /* background-color: #2545B9; */
+    color: #2545B9;
+    padding: 1%;
+    /* border-radius: 20px; */
+}
+
+#nav a:hover {
+    color: black;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#search {
+    margin-top: 1%;
+    width: 20%;
+}
+
+/* First Banner Styling */
+#firsttext h1 {
+    color: #2545B9;
+}
+
+#first {
+    display: flex;
+}
+
+#firsttext {
+    width: 40%;
+    vertical-align: middle;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#source {
+    width: 40%;
+    margin-left: 10%;
+}
+
+#source img {
+    width: 100%;
+}
+
+#firsttext button {
+    padding: 3%;
+    width: 35%;
+    border-radius: 40px;
+    color: white;
+    background-color: #2545B9;
+    border: none;
+}
+
+#firsttext button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* Second banner styling */
+#res {
+    background-color: #2545B9;
+    width: 33%;
+    padding: 7% 1%;
+    color: white;
+}
+
+#three {
+    display: flex;
+}
+
+#res i {
+    font-size: xx-large;
+}
+
+/* Third banner styling */
+#third h2 {
+    color: #2545B9;
+    text-align: center;
+}
+
+#thirdflex {
+    display: flex;
+}
+
+#third {
+    padding: 5%;
+}
+
+#img1 {
+    width: 33%;
+    text-align: center;
+}
+
+#img1 img {
+    width: 70%;
+    margin: auto;
+}
+
+#img1 button {
+    padding: 2%;
+    width: 25%;
+    border-radius: 40px;
+    color: white;
+    background-color: #2545B9;
+    border: none;
+}
+
+#img1 button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#thirdtext {
+    margin-top: 4%;
+}
+
+/* Fourth banner styling */
+#fourthbanner {
+    background-image: url(../img/fdx.jpeg);
+    padding: 7%;
+}
+
+#create {
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    /* margin-top: 10%; */
+    padding: 5% 1%;
+    text-align: center;
+    box-shadow: 5px 5px 20px 1px gray;
+}
+
+#fourthbanner button {
+    padding: 2%;
+    width: 25%;
+    border-radius: 40px;
+    color: white;
+    background-color: #2545B9;
+    border: none;
+}
+
+#fourthbanner button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
